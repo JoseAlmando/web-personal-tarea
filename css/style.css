@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+*, body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #f2f2f2;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.info {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-img {
+  width: 60%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.info-details {
+  margin-left: 5px;
+  width: 70%;
+}
+.hobbies-details {
+  display: flex;
+  justify-content: space-around;
+}
+hobbies-details-item{
+  width: 33%;
+}
+.hobbies-details-item-img {
+  object-fit: cover;
+
+}
+
+.social-networks-details {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.youtube-video-details{ 
+  display: flex;
+  justify-content: center;
+}
